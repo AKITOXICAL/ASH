@@ -1,1 +1,158 @@
-
+{
+       "name": "Ash Ketchum",
+      "description": "An Anime themed Telegram group management bot Based on Pokemon.",
+      "logo": "https://telegra.ph/file/279aabde88baf84afeaee.jpg",
+      "keywords": [
+         "telegram",
+         "anime",
+         "group",
+         "manager",
+         "Ash"
+      ],   
+   "repository": "https://github.com/AKITOXICAL/ASH",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "env": {
+      "TOKEN": {
+         "description": "Here it is Down",
+         "required": true,
+         "value": "7048029832:AAHtX9gs9kuNjqhhBUioueMbYSGGoh4ZKLk"
+      },
+      "API_ID": {
+         "description": "Here API_ID used for telethon based modules.",
+         "required": true,
+         "value": "29764570"
+      },
+      "API_HASH": {
+         "description": "Here API_HASH used for telethon based modules.",
+         "required": true,
+         "value": ""
+      },    
+      "SQLALCHEMY_DATABASE_URI": {
+         "description": "Empty Because Not Having and Not Need For Now.",
+         "required": false,
+         "value": "sqldbtype://username:pw@hostname:port/db_name"
+      },      
+      "OWNER_ID": {
+         "description": "Owner user ID as an integer.",
+         "required": true,
+         "value": "6411059657"
+      },
+      "OWNER_USERNAME": {
+         "description": "Owner username without the @",
+         "value": "ELITE_GANESH"
+      },
+      "INFOPIC": {
+         "description": "userinfo picture Show In Info.",
+         "value": "true"
+      },
+      "SUPPORT_CHAT": {
+         "description": "Telegram support group chat username where bot users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Ash support than consider you made an enemy.",
+         "required": true,
+         "value": "E_H_Club"
+      },
+      "EVENT_LOGS": {
+         "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
+         "required": true,
+         "value": "-1001801945066"
+      },
+      "JOIN_LOGGER": {
+         "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
+         "required": true,
+         "value": "-1001801945066"
+      },
+      "DEV_USERS": {
+         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Ash support then keep the current ID's here at they are and add yours.",
+         "required": false,
+         "value": "6325887601"
+      },
+      "sw_api": {
+         "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
+         "required": false,
+         "value": "QzhnoxpyhMXwSdpLMk77NUE8OPUJSMAsDMI088IHlPJS~_NenKRX5wbtAyCbCGZc"
+      }, 
+      "STRICT_GBAN": {
+         "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
+         "value": "True"
+      },
+      "DRAGONS": {
+         "description": "A space separated list of user IDs who you want to assign as sudo users.",
+         "required": false,
+         "value": "6325887601"
+      },
+      "DEMONS": {
+         "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
+         "required": false,
+         "value": "6325887601"
+      },
+      "TIGERS": {
+         "description": "A space separated list of user IDs who you wanna assign as tiger users.",
+         "required": false,
+         "value": "6325887601"
+      },
+      "WOLVES": {
+         "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
+         "required": false,
+         "value": "6325887601"
+      },
+      "ENV": {
+         "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
+         "value": "ANYTHING"
+      },
+      "WEBHOOK": {
+         "description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
+         "required": false,
+         "value": ""
+      },
+      "PORT": {
+         "description": "Port to use for bot webhooks. Better leave this as it is on heroku",
+         "required": false,
+         "value": ""
+      },
+      "URL": {
+         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/" No need For Bot,
+         "required": false,
+         "value": ""
+      },
+      "No_LOAD": {
+         "description": "Dont load these modules cause they shit, space separation",
+         "required": false,
+         "value": ""
+      }, 
+      "BL_CHATS": {
+         "description": "List of chats you want blacklisted.",
+         "required": false,
+         "value": ""
+      },
+      "ALLOW_EXCL": {
+         "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
+         "value": "True"
+      },
+      "DONATION_LINK": {
+         "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it",
+         "required": false,
+         "value": "https://t.me/AKITOXIC"
+      },
+      "DEL_CMDS": {
+         "description": "Set this to True if want to delete command messages from users who don't have the perms to run that command.",
+         "value": "True"
+      },
+      "AI_API_KEY": {
+      "description": "Make your bot talk using Intellivoid's chatbot API, get your key from https://coffeehouse.intellivoid.net/",
+         "required": false,
+         "value": ""
+   },      
+      "BAN_STICKER": {
+         "description": "ID of the sticker you want to use when banning people.",
+         "required": false,
+         "value": "CAACAgUAAxkBAAIk8Ga7ZiCCRkhuBsT-cwAB09fHpddeWgAC8Q8AAhP7aVdcDFV00iDG_DQE"
+      }
+      
+   }
+}
