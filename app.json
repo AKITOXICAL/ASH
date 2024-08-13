@@ -35,9 +35,9 @@
          "value": ""
       },    
       "SQLALCHEMY_DATABASE_URI": {
-         "description": "Empty Because Not Having and Not Need For Now.",
+         "description": "Url is Down",
          "required": false,
-         "value": "sqldbtype://username:pw@hostname:port/db_name"
+         "value": "postgres://rkffvakt:o7mkbX8hS7h5IPhMyPHSteGaWvuDYOp-@surus.db.elephantsql.com/rkffvakt"
       },      
       "OWNER_ID": {
          "description": "Owner user ID as an integer.",
