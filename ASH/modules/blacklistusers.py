@@ -1,11 +1,11 @@
 import html
-import VegetaRobot.modules.sql.blacklistusers_sql as sql
-from VegetaRobot import (DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES,
+import ASH.modules.sql.blacklistusers_sql as sql
+from ASH import (DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES,
                           dispatcher)
-from VegetaRobot.modules.helper_funcs.chat_status import dev_plus
-from VegetaRobot.modules.helper_funcs.extraction import (extract_user,
+from ASH.modules.helper_funcs.chat_status import dev_plus
+from ASH.modules.helper_funcs.extraction import (extract_user,
                                                           extract_user_and_text)
-from VegetaRobot.modules.log_channel import gloggable
+from ASH.modules.log_channel import gloggable
 from telegram import ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
