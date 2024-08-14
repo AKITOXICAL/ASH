@@ -19,13 +19,13 @@
 ## Available on Telegram as [@Ash_Ketchum_EHC_Bot](https://t.me/Ash_Ketchum_EHC_Bot)
 
 ## ✨ Easy To Deploy ✨
-The easiest way to deploy this Bot
+GET EASIEST DEPLOYMENT ON HEROKU OF THIS BOT
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Ctzfamily/VegetaRobot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 ## Devloper
 
-#### • [AKITOXICAL](https://github.com/AKITOXICAL) (OWNER) 
+#### • [AKITO](https://github.com/AKITOXICAL) (OWNER) 
 
 
 ## Special Credits
