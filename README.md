@@ -25,7 +25,11 @@ GET EASIEST DEPLOYMENT ON HEROKU OF THIS BOT
 
 ## Developer of ASH KETCHUM
 
-#### • [AKITO](https://github.com/AKITOXICAL) (OWNER) 
+#### • [AKITO](https://t.me/AKITOXIC) (Developer) 
+
+## OWNER of ASH KETCHUM
+
+### • [GANESH](https://t.me/ELITE_GANESH) (Owner) 
 
 
 ## Special Credits
